@@ -1,0 +1,40 @@
+# YouTube Research Tool - Secrets Configuration
+# NEVER commit this file to public repositories
+# This file should only contain sensitive information
+
+# Your YouTube Data API v3 Key
+# Get it from: https://console.cloud.google.com/apis/credentials
+youtube_api_key = "AIzaSyDf3aAnAyrmGxp2imtzM1YUyCqwEtQG8mY"
+
+# Optional: Database configuration
+database_path = "data/youtube_research.db"
+
+# Optional: Analytics settings
+enable_analytics = true
+analytics_token = ""
+
+# Optional: Email notifications (if implemented)
+smtp_server = ""
+smtp_port = 587
+email_username = ""
+email_password = ""
+notification_email = ""
+
+# Optional: Advanced features
+enable_ml_predictions = false
+enable_sentiment_analysis = false
+
+# Application settings
+app_name = "YouTube Research Pro"
+app_version = "1.0.0"
+debug_mode = false
+
+# Rate limiting
+max_requests_per_minute = 60
+max_results_per_search = 200
+cache_duration_minutes = 5
+
+# User preferences (defaults)
+default_theme = "light"
+default_language = "en"
+notifications_enabled = true
