@@ -1,0 +1,35 @@
+# Streamlit Configuration File
+# This file contains configuration options for the Streamlit app
+
+[theme]
+primaryColor = "#FF0000"  # YouTube red
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# Enable CORS for external API calls
+enableCORS = true
+# Allow file uploads
+enableXsrfProtection = true
+maxUploadSize = 200
+# Port configuration
+port = 8501
+
+[client]
+# Show tooltips
+showErrorDetails = true
+# Caching options
+caching = true
+
+# Custom settings for YouTube Research Tool
+[YouTubeResearchTool]
+name = "YouTube Research Pro"
+version = "1.0.0"
+default_api_limit = 50
+enable_analytics = true
+cache_duration = 300  # 5 minutes
